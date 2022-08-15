@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lato";
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.header {
+    background: url(../img/IMAGE.jpg) no-repeat center top / cover;
+    padding: 47px 0 220px 0;
+}
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+}
+.menu li a {
+    margin-right: 40px;
+    font-size: 17px;
+    color: #999999;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.Portfollio:hover {
+    color: #00d6b4;
+    letter-spacing: 1px;
+}
+
+.offer p {
+    margin-top: 161px;
+    margin-bottom: 39px;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    color: white;
+}
+.offer {
+    text-align: center;
+}
+.offer a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 26px;
+    border: 1px solid #fff;
+    transition: all 0.5s;
+}
+.Gaq:hover {
+    color: #00d6b4;
+    border: 1px solid #00d6b4;
+}
+
+/* Section */
+
+.Work {
+    background-color: #222222;
+}
+.l-work {
+    padding-top: 49px;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 33px;
+    font-family: "Lato";
+}
+/* .gallery {
+    display: flex;
+    justify-content: space-between;
+}
+.gallery img {
+    width: 300px;
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 22px;
+} */
+/* .gallery img:hover {
+    border: 3px solid #0f85da;
+} */
+.column {
+    margin: 0 auto;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 22px;
+    width: 940px;
+}
+
+/* .img-last {
+    margin-bottom: 101px;
+} */
+
+/* FOOTER   */
+
+.footer-text {
+    text-align: center;
+}
+.versus {
+    padding-top: 35px;
+    color: #c2c2c2;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.footer-text p {
+    margin-top: 10px;
+    color: #c2c2c2;
+    font-size: 12px;
+    height: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    padding-bottom: 40px;
+}
+.footer-text a {
+    text-decoration: none;
+}
